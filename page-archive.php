@@ -14,7 +14,7 @@ $this->need('header.php');?>
 <?php $this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);   
             $year=0; $mon=0; $i=0; $j=0;   
             $output = '<span class="archive-page-counter">       
-      好! 目前共计 '.$stat->publishedPostsNum.' 篇日志。 继续努力。
+      共计 '.$stat->publishedPostsNum.' 篇日志。
     </span>
 ';   
             while($archives->next()):

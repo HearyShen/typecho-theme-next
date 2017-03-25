@@ -1,26 +1,27 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <footer id="footer" class="footer">
-      <div class="footer-inner"> 
-<div class="copyright" >
-  &copy;
-  <span itemprop="copyrightYear"><?php echo date('Y'); ?></span>
-  <span class="with-love">
-    <i class="icon-next-heart fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder"><a href="<?php $this->options->siteUrl(); ?>"><?php if($this->options->next_name) $this->options->next_name(); else $this->options->title(); ?></a></span>
-</div>
+  <div class="footer-inner"> 
+    <div class="copyright" >
+      &copy;
+      <span itemprop="copyrightYear"><?php echo date('Y'); ?></span>
+      <span class="with-love">
+        <i class="icon-next-heart fa fa-heart"></i>
+      </span>
+      <span class="author" itemprop="copyrightHolder"><a href="<?php $this->options->siteUrl(); ?>"><?php if($this->options->next_name) $this->options->next_name(); else $this->options->title(); ?></a></span>
+    </div>
 
-<div class="powered-by">
-  <?php _e('由 <a class="theme-link" href="http://www.typecho.org">Typecho</a> 强力驱动'); ?>
-</div>
+    <div class="powered-by">
+      Powered by 
+      <a class="theme-link" href="http://www.typecho.org" target="_blank">Typecho</a>
+    </div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/zgq354/typecho-theme-next">
-    NexT.Mist
-  </a>
-</div>
-       </div>
+    <div class="theme-info">
+      Theme -
+      <a class="theme-link" href="https://github.com/HearyShen/typecho-theme-next" target="_blank">
+        NexT.Mist
+      </a>
+    </div>
+  </div>
 </footer>
 <div class="back-to-top"></div>
 </div>

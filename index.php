@@ -3,9 +3,9 @@
  * 移植Hexo主题Next.Mist
  * 
  * @package Next.Mist
- * @author zgq354
+ * @author HearyShen
  * @version 1.2.6
- * @link http://blog.izgq.net/archives/444/
+ * @link https://github.com/HearyShen/typecho-theme-next
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;

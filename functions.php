@@ -47,7 +47,8 @@ function getGravatar($email, $s = 40, $d = 'mm', $g = 'g') {
 
     $hash = md5($email);
 
-    $avatar = "//cdn.v2ex.com/gravatar/$hash?s=$s&d=$d&r=$g";
+    //$avatar = "http://gravatar.duoshuo.com/avatar/$hash?s=$s&d=$d&r=$g";
+    $avatar = "https://www.gravatar.com/avatar/$hash?s=$s&r=$g&d=$mm";
 
     return $avatar;
 
